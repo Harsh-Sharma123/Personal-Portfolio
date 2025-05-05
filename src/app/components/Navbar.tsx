@@ -7,8 +7,8 @@ import { motion } from 'motion/react';
 import { ImInsertTemplate } from 'react-icons/im';
 
 const navLinks = [
-    {title: "About", path: "/about"},
-    {title: "Contact", path: "/contact"}
+    {title: "About", path: "#about"},
+    {title: "Contact", path: "#contact"}
 ];
 
 

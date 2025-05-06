@@ -43,7 +43,7 @@ export const Navbar = () => {
   }
 
     return (
-        <div className='text-white/70 pt-6'>
+        <div className='text-white/70 pt-6 sticky top-0 z-50 backdrop-blur bg-black/70'>
             <div className='hidden md:flex justify-center items-center px-4 py-2 mx-auto max-w-[400px]'>
                 <ul className='flex flex-row space-x-8 p-4 font-semibold'>
                     {navLinks.map((item, index) => (
@@ -59,7 +59,7 @@ export const Navbar = () => {
             </div>
 
 
-            <div onClick={toggleNav} className='md:hidden absolute top-[40px] right-5 border rounded border-white/70 p-2 z-50'>
+            <div onClick={toggleNav}  className='md:hidden absolute top-[40px] right-5 border rounded border-white/70 p-2 z-50'>
                 {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
             </div>
             

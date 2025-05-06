@@ -20,15 +20,15 @@ export const Skills = () => {
     ]
 
   return (
-    <div className='bg-[linear-gradient(to_top,#000,#381a5f_80%)] py-16'>
-        <div className='text-white w-[400px] md:min-w-[950px] mx-auto p-8 text-center'>
-            <h2 className='text-6xl font-bold mb-4'>What I do</h2>
-            <div className='grid grid-cols-2 md:grid-cols-4 gap-6'>
+    <div className='bg-[linear-gradient(to_top,#000,#381a5f_80%)] py-16 text-center'>
+        <div className='text-white w-auto sm:w-[500px]  md:min-w-[650px] lg:min-w-[950px] mx-auto sm:p-8 text-center'>
+            <h2 className='text-6xl sm:text-6xl font-bold mb-12'>What I do</h2>
+            <div className='grid grid-cols-2 md:grid-cols-4 gap-6 mx-auto'>
                 {skillIcons.map((skill, index) => (
                     <motion.div
                         whileHover={{ scale: 1.1 }}
                         key={index}
-                        className='h-[160px] w-[160px] md:h-[220px] md:w-[220px] flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl'>
+                        className='h-[110px] w-[110px] sm:h-[160px] sm:w-[160px] lg:h-[220px] lg:w-[220px] flex flex-col justify-center items-center bg-white/10 p-4 rounded-xl mx-auto'>
                             {skill.icon}
                             <p className='mt-2'>{skill.label}</p>
                         </motion.div>

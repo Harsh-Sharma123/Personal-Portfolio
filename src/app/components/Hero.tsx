@@ -61,9 +61,11 @@ export const Hero = () => {
         />
       </motion.div>
 
-      <p className='text-center text-lg  md:text-2xl max-w-[500px] mx-auto mt-12 text-white/80 px-2'>
+      <p className='text-center text-lg  md:text-2xl max-w-[500px] mx-auto mt-10 text-white/80 px-2'>
         I am a Software Developer
       </p>
+
+      {/* <div className='text-center mt-6'><span className='inline-block cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 mx-auto mt-6 border-2 rounded-xl text-xl font-semibold border-gray-700 px-12 py-2'>Download Resume</span></div> */}
 
       <div className="mt-12 flex justify-center">
         <Image

@@ -23,7 +23,7 @@ export const Contact = () => {
       <div className='bg-white/10 p-6 rounded-xl max-w-[550px]'>
         <h2 className='text-5xl font-bold text-orange-400 mb-4'>Let's Connect</h2>
         <p className='text-white/70 mb-6'>Send me a message and lets schedule a call</p>
-        <form action="https://getform.io/f/ajjmzpya" className='space-y-4'>
+        <form action="https://getform.io/f/ajjmzpya" className='space-y-4' method="POST" >
           <div className='grid md:grid-cols-2 gap-4'>
             <input name="name" type="text" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus-ring-orange-400' placeholder='First Name'/>
             <input name="name" type="text" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus-ring-orange-400' placeholder='Last Name'/>

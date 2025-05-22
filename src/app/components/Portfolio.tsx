@@ -21,15 +21,15 @@ const projects = [
         description: 'An E-Commerce Static Website',
         tectstack: 'HTML, CSS',
         link: 'https://harsh-sharma123.github.io/E-Commerce-Website-FrontEnd-Template/',
-        git: '',
+        git: 'https://github.com/Harsh-Sharma123/E-Commerce-Website-FrontEnd-Template.git',
         src: project2
     },
     {
         title: 'Portfolio Website',
         description: '',
         tectstack: 'ReactJS, NextJS, TailwindCSS, Typescript',
-        link: '',
-        git: '',
+        link: 'https://personal-portfolio-lovat-delta.vercel.app/',
+        git: 'https://github.com/Harsh-Sharma123/Personal-Portfolio',
         src: project3
     }
 ]

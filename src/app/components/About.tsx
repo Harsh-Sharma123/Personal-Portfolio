@@ -132,7 +132,7 @@ const About = () => {
             <p className="text-xl text-white/80"> I actively solve coding problems and participate in contests to keep my skills sharp and up to date.
             </p>
 
-        <div className="flex gap-4 items-center my-4">
+        <div className="flex flex-wrap gap-4 items-center my-4">
             
             {
                 platforms.map((platform, index) => (
